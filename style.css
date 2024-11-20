@@ -1,0 +1,88 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+.main-header {
+    background: #4A148C;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.main-nav ul li {
+    margin: 0 10px;
+}
+
+.main-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn {
+    background: #8E24AA;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background: #6A1B9A;
+}
+
+.btn-secondary {
+    background: #333;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #6A1B9A, #8E24AA);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Features */
+.features {
+    background: #f4f4f4;
+    padding: 30px 0;
+}
+
+.feature-item {
+    margin: 20px 0;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+}
+
+/* Footer */
+.main-footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
